@@ -1,6 +1,6 @@
 # Project_Mango / 2020.08 - 2020.09
 <p align="center"> Main Page Preview </p>
-<p align="center"> <img src="https://user-images.githubusercontent.com/63029576/95649151-07ec1d80-0b17-11eb-939b-0ed35856c927.jpg" width="800px"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/63029576/95985484-9cc88100-0e5f-11eb-9ec6-16eaa9293d5c.jpg" width="800px"> </p>
 <br>
 
 ## 주제
@@ -49,50 +49,56 @@
 * 학원 후기 CRUD
 * 좋아요 기능
 
+## DB 구성 - UseCase Diagram
+<p align="center"> 
+ <img src="https://user-images.githubusercontent.com/63029576/95985491-9e924480-0e5f-11eb-9dac-9cf5f47c5f79.png" width="700px"> </p>
+
 ## DB 구성 - ER Diagram
-<p align="center"> <img src="https://user-images.githubusercontent.com/63029576/95649874-e0974f80-0b1a-11eb-87d7-c4b497abab09.jpg" width="700px"> </p>
+<p> 
+  <img src="https://user-images.githubusercontent.com/63029576/95988767-57f31900-0e64-11eb-92d7-cf28af607259.jpg" width="700px"> 
+  <img src="https://user-images.githubusercontent.com/63029576/95988760-56295580-0e64-11eb-8574-689750edc277.jpg" width="700px"> </p>
 
 ## 기능구현
 * [메인페이지](#메인페이지)
   * [팝업창](#팝업창)
   * [TOP3 학원](#TOP3-학원)
 * [학원정보 페이지](#학원정보-페이지)
-  * [카카오 지도 API](#카카오-지도-API)
+  * [학원 상세 정보](#학원-상세-정보)
   * [학원 키워드](#학원-키워드)
   * [학원 후기](#학원-후기)
 
 <br>
 
-## 회원가입 form
-* `jQuery`를 활용하여 아이디, 비밀번호, 비밀번호 확인 유효성 검사하기
-* 유효성 검사를 하는 동시에 `Ajax`를 활용한 아이디 중복 확인 검사하기
-* `KAKAO 우편번호 API`를 활용하여 주소 찾기 구현
-<img src="https://user-images.githubusercontent.com/63029576/95654937-a3dd4f80-0b3e-11eb-818a-8acd015da2b0.jpg" width="700px">
+## 메인페이지
+
+### 팝업창
+* `Cookie`를 활용하여 체크하여 닫으면 하루동안 보이지 않도록 구현
+<img src="https://user-images.githubusercontent.com/63029576/95988055-478e6e80-0e63-11eb-9aff-3bf0eecbb21c.jpg" width="700px">
 <br>
 
-## 게시판
-
-### 질문 게시판
-* num 컬럼으로 게시글 리스트 출력. (답글은 re_ref 컬럼으로 리스트 뿌려주기)
-* 검색기능 및 페이징 구현
-<img src="https://user-images.githubusercontent.com/63029576/95655016-51e8f980-0b3f-11eb-929e-9da4d9eab3a2.jpg" width="700px"> 
+### TOP3 학원
+* `Ajax`를 활용하여 후기의 평균 평점이 높고 후기 수가 많은 학원 출력
+* 클릭시 해당 학원 정보 페이지로 이동
+<img src="https://user-images.githubusercontent.com/63029576/95988497-f16dfb00-0e63-11eb-8e8c-f07f04496878.jpg" width="700px">
 <br>
 
-### 후기 게시판
+## 학원정보 페이지
+
+### 학원 상세 정보
+* 학원명, 카테고리 등 해당 학원의 상세 정보 출력(공공데이터 기반)
+* `카카오 지도 API`를 통해 해당학원의 위치를 지도로 표시
+<img src="https://user-images.githubusercontent.com/63029576/95989550-642ba600-0e65-11eb-99bd-a90dec411708.jpg" width="700px"> 
+<br>
+
+### 학원 키워드
 * 이미지 업로드 및 `Ajax`를 활용한 댓글 등록 및 삭제 구현
 <img src="https://user-images.githubusercontent.com/63029576/95655019-5c0af800-0b3f-11eb-9ba3-13f1038cbb37.jpg" width="700px">
 <br>
 
-## 갤러리 게시판
+## 학원 후기
 * `JavaScript`를 통해 모달창 구현
 <p> <img src="https://user-images.githubusercontent.com/63029576/95655027-70e78b80-0b3f-11eb-984a-184366aea6c5.jpg" width="700px"> 
   <img src="https://user-images.githubusercontent.com/63029576/95655028-747b1280-0b3f-11eb-8a61-8c3a657a295a.jpg" width="700px"> </p>
-<br>
-
-## 이메일 보내기
-* `javax.mail` 라이브러리와 SMTP를 활용하여 이메일 발송 기능 구현
-<p> <img src="https://user-images.githubusercontent.com/63029576/95655682-f9682b00-0b43-11eb-9fd0-d82235c9e2e8.jpg" width="700px"> 
-  <img src="https://user-images.githubusercontent.com/63029576/95655692-08e77400-0b44-11eb-9eae-65d88b901239.jpg" width="700px"> </p>
 <br>
 
 ## 라이센스
