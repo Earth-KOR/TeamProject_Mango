@@ -111,7 +111,9 @@
 * 본인 작성 후기는 멤버십 회원 아니더라도 수정 및 삭제 가능(삭제시에도 `Ajax`이용)
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/63029576/95990424-765a1400-0e66-11eb-8033-fd81716ecd0e.jpg" width="800px"> 
+ <br>
  <img src="https://user-images.githubusercontent.com/63029576/95990430-78bc6e00-0e66-11eb-8fff-4872883aeedc.jpg" width="800px"> 
+ <br>
  <img src="https://user-images.githubusercontent.com/63029576/95990441-7ce88b80-0e66-11eb-901d-f74ad36cfe3a.gif" width="800px">
 </p>
 <br>
