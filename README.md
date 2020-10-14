@@ -1,5 +1,5 @@
 # Project_Mango / 2020.08 - 2020.09
-<p align="center"> Main Page Preview </p>
+<p align="center"> <b> Main Page Preview </b> </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/63029576/95985484-9cc88100-0e5f-11eb-9ec6-16eaa9293d5c.jpg" width="800px"> </p>
 <br>
 
@@ -47,7 +47,7 @@
 * 카카오 지도 API를 활용한 학원 위치 표시
 * 키워드 출력 및 클릭 시 검색
 * 학원 후기 CRUD
-* 좋아요 기능
+* Ajax를 활용한 '좋아요' 기능
 
 ## DB 구성 - UseCase Diagram
 <p align="center"> 
@@ -64,7 +64,7 @@
   * [TOP3 학원](#TOP3-학원)
 * [학원정보 페이지](#학원정보-페이지)
   * [학원 상세 정보](#학원-상세-정보)
-  * [학원 키워드](#학원-키워드)
+  * [학원 키워드 및 좋아요](#학원-키워드-및-좋아요)
   * [학원 후기](#학원-후기)
 
 <br>
@@ -90,15 +90,21 @@
 <img src="https://user-images.githubusercontent.com/63029576/95989550-642ba600-0e65-11eb-99bd-a90dec411708.jpg" width="700px"> 
 <br>
 
-### 학원 키워드
-* 이미지 업로드 및 `Ajax`를 활용한 댓글 등록 및 삭제 구현
-<img src="https://user-images.githubusercontent.com/63029576/95655019-5c0af800-0b3f-11eb-9ba3-13f1038cbb37.jpg" width="700px">
+### 학원 키워드 및 좋아요
+* `Ajax`를 활용한 좋아요 기능 구현 (로그인 상태에서만 사용가능)
+* `Ajax`를 통해 키워드 출력, 클릭시 키워드에 해당하는 학원 검색
+<img src="https://user-images.githubusercontent.com/63029576/95989956-e5833880-0e65-11eb-8e7a-7e640e63ff47.gif" width="700px">
 <br>
 
 ## 학원 후기
-* `JavaScript`를 통해 모달창 구현
-<p> <img src="https://user-images.githubusercontent.com/63029576/95655027-70e78b80-0b3f-11eb-984a-184366aea6c5.jpg" width="700px"> 
-  <img src="https://user-images.githubusercontent.com/63029576/95655028-747b1280-0b3f-11eb-8a61-8c3a657a295a.jpg" width="700px"> </p>
+* 후기의 개수, 평균 별점, 평점별 분포 표시
+* 로그인 상태가 아니거나 멤버십 회원이 아닌 경우 후기 블라인드 처리
+* 본인 작성 후기는 멤버십 회원 아니더라도 수정 및 삭제 가능(삭제시에도 `Ajax`이용)
+<p>
+  <img src="https://user-images.githubusercontent.com/63029576/95990424-765a1400-0e66-11eb-8033-fd81716ecd0e.jpg" width="700px"> 
+ <img src="https://user-images.githubusercontent.com/63029576/95990430-78bc6e00-0e66-11eb-8fff-4872883aeedc.jpg" width="700px"> 
+ <img src="https://user-images.githubusercontent.com/63029576/95990441-7ce88b80-0e66-11eb-901d-f74ad36cfe3a.gif" width="700px">
+</p>
 <br>
 
 ## 라이센스
