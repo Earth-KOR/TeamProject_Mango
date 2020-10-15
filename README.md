@@ -36,9 +36,9 @@
 ### 참여인원 - 6명
 ### 맡은 역할
 * 학원 정보 & 후기 등록 기능
-* 유스케이스 다이어그램 지원
+* 데이터 모델링 - 유스케이스 다이어그램 
 * 초기 배포 패키지파일 세팅
-* 초기 테이블 및 제약조건 쿼리문 배포
+* 초기 테이블 및 제약조건 생성 쿼리문 배포
 * Github지원
 
 ### 주요기능
@@ -67,6 +67,7 @@
   * [학원 상세 정보](#학원-상세-정보)
   * [학원 키워드 및 좋아요](#학원-키워드-및-좋아요)
   * [학원 후기](#학원-후기)
+* [마이페이지](#마이페이지)
 
 <br>
 
@@ -105,19 +106,30 @@
 </p>
 <br>
 
-## 학원 후기
+### 학원 후기
 * 후기의 개수, 평균 별점, 평점별 분포 표시
 * 로그인 상태가 아니거나 멤버십 회원이 아닌 경우 후기 블라인드 처리
-* 본인 작성 후기는 멤버십 회원 아니더라도 수정 및 삭제 가능(삭제시에도 `Ajax`이용)
+
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/63029576/95990424-765a1400-0e66-11eb-8033-fd81716ecd0e.jpg" width="800px"> 
  <br>
  <img src="https://user-images.githubusercontent.com/63029576/95990430-78bc6e00-0e66-11eb-8fff-4872883aeedc.jpg" width="800px"> 
- <br>
+</p>
+* 본인 작성 후기는 멤버십 회원 아니더라도 수정 및 삭제 가능(삭제시에도 `Ajax`이용)
+<p align="center"> 
  <img src="https://user-images.githubusercontent.com/63029576/95990441-7ce88b80-0e66-11eb-901d-f74ad36cfe3a.gif" width="800px">
 </p>
 <br>
 
+## 마이페이지
+* 해당 아이디로 좋아요 누른 학원목록과 작성한 학원 후기 목록 출력
+
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/63029576/96137450-9f96a500-0f37-11eb-92e2-316344c62d09.jpg" width="800px"> 
+ <br>
+ <img src="https://user-images.githubusercontent.com/63029576/96137458-a0c7d200-0f37-11eb-8b3e-2708d05ac4fc.jpg" width="800px"> 
+</p>
+<br>
 ## 라이센스
 Copyright © 2020 Chang-Hwa Jeong. <br>
 This project is ITWILL Busan licensed.
