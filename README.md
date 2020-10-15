@@ -115,7 +115,9 @@
  <br>
  <img src="https://user-images.githubusercontent.com/63029576/95990430-78bc6e00-0e66-11eb-8fff-4872883aeedc.jpg" width="800px"> 
 </p>
+
 * 본인 작성 후기는 멤버십 회원 아니더라도 수정 및 삭제 가능(삭제시에도 `Ajax`이용)
+
 <p align="center"> 
  <img src="https://user-images.githubusercontent.com/63029576/95990441-7ce88b80-0e66-11eb-901d-f74ad36cfe3a.gif" width="800px">
 </p>
@@ -126,10 +128,10 @@
 
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/63029576/96137450-9f96a500-0f37-11eb-92e2-316344c62d09.jpg" width="800px"> 
- <br>
- <img src="https://user-images.githubusercontent.com/63029576/96137458-a0c7d200-0f37-11eb-8b3e-2708d05ac4fc.jpg" width="800px"> 
+  <img src="https://user-images.githubusercontent.com/63029576/96137458-a0c7d200-0f37-11eb-8b3e-2708d05ac4fc.jpg" width="800px"> 
 </p>
 <br>
+
 ## 라이센스
 Copyright © 2020 Chang-Hwa Jeong. <br>
 This project is ITWILL Busan licensed.
